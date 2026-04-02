@@ -1,0 +1,18 @@
+{
+  "name": "@pipeworx/mcp-marine",
+  "version": "0.1.0",
+  "description": "MCP server for marine wave forecasts and conditions via Open-Meteo Marine API",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
+  "files": ["src"],
+  "scripts": {
+    "build": "tsc",
+    "check": "tsc --noEmit"
+  },
+  "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "marine", "waves", "ocean", "forecast"],
+  "author": "Pipeworx",
+  "license": "MIT",
+  "devDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
