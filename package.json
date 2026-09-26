@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-marine",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Marine MCP — wraps marine-api.open-meteo.com (free, no auth)",
   "type": "module",
   "main": "src/index.ts",
@@ -26,7 +26,7 @@
     "@cloudflare/workers-types": "^4.20260405.1"
   },
   "pipeworx": {
-    "sourceHash": "v1-a209ffbddbd387812a91eb0bd4e200c3b1d0c6f205248a213a173ee7734397ad",
-    "sourceCommit": "adb69d997f82a62e8e22b594488c7d04a227db35"
+    "sourceHash": "v1-9a3ab56eff19e3a01863f945d6230c6575f208f79d572b99376dfeb4e502585a",
+    "sourceCommit": "6182c4cfebddb94950e060b5d2fca18f18ad1aca"
   }
 }
