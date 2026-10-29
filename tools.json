@@ -1,0 +1,48 @@
+[
+  {
+    "name": "get_wave_forecast",
+    "description": "Get multi-day wave forecasts for coastal locations (e.g., \"Hawaii\", \"California Coast\"). Returns max wave height, period, and dominant direction per day. Use when planning water activities or monitoring upcoming swell.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "latitude": {
+          "type": "number",
+          "description": "Latitude of the location."
+        },
+        "longitude": {
+          "type": "number",
+          "description": "Longitude of the location."
+        },
+        "days": {
+          "type": "number",
+          "description": "Number of forecast days (1-7, default 7)."
+        }
+      },
+      "required": [
+        "latitude",
+        "longitude"
+      ]
+    }
+  },
+  {
+    "name": "get_current_waves",
+    "description": "Check real-time wave conditions at a coastal location. Returns current wave height, period, and direction. Use for immediate surfing, boating, or maritime planning decisions.",
+    "inputSchema": {
+      "type": "object",
+      "properties": {
+        "latitude": {
+          "type": "number",
+          "description": "Latitude of the location."
+        },
+        "longitude": {
+          "type": "number",
+          "description": "Longitude of the location."
+        }
+      },
+      "required": [
+        "latitude",
+        "longitude"
+      ]
+    }
+  }
+]
