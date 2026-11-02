@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-marine",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "Marine MCP — wraps marine-api.open-meteo.com (free, no auth)",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "marine",
     "gatewaySlug": "marine",
-    "sourceHash": "v1-5cfca67c3fdbc5ac3ba6c03d52bbaf95802ed360e9512d1c5ad27a0d5142f077",
-    "sourceCommit": "5c89d6abb778d45da5d92002eb251978622bedf9"
+    "sourceHash": "v1-1ebb004c36efe1534eceff0cb623fb1334e54bdc9c097330a3921e404e5920b6",
+    "sourceCommit": "236b0a46d91f343fe094da9f499c378e88f78312"
   }
 }
